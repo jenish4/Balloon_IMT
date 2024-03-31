@@ -1,0 +1,46 @@
+{
+  "assignment-range": [
+    {
+      "entry-point": 1000,
+      "size": 300
+    }
+  ],
+  "module-name": "balloon",
+  "module-revision": "unknown",
+  "item": [
+    {
+      "namespace": "module",
+      "identifier": "balloon",
+      "status": "unstable",
+      "sid": 1000
+    },
+    {
+      "namespace": "data",
+      "identifier": "/balloon:readings",
+      "status": "unstable",
+      "sid": 1001
+    },
+    {
+      "namespace": "data",
+      "identifier": "/balloon:readings/datarate",
+      "status": "unstable",
+      "sid": 1002,
+      "type": "int16"
+    },
+    {
+      "namespace": "data",
+      "identifier": "/balloon:readings/temp_value",
+      "status": "unstable",
+      "sid": 1003,
+      "type": "uint8"
+    },
+    {
+      "namespace": "data",
+      "identifier": "/balloon:readings/txpower",
+      "status": "unstable",
+      "sid": 1004,
+      "type": "uint8"
+    }
+  ],
+  "key-mapping": {}
+}

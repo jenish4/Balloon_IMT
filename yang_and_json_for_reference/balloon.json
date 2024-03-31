@@ -1,0 +1,7 @@
+{
+    "balloon:readings": {
+        "txpower" : 0,
+        "datarate" : 0,
+	"temp_value": 0
+    }
+}
